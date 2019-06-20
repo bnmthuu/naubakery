@@ -1,0 +1,884 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	
+	
+	<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	
+	
+	
+	<!--link button-->
+	<link href="css/button.css" rel="stylesheet" type="text/css">
+	
+	
+	<!--link button icon-->
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	
+	<!--link icon social media-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!--link owl carousel-->
+	<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+	
+	<link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+	
+	<!--link wow-->
+	
+	<link rel="stylesheet" href="css/animate.css">
+  	<link rel="stylesheet" href="css/site.css">
+	
+	<!--link sign in-->
+	<link href="css/w3.css" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+	
+	<div class="outer">
+		
+		<div class="navigation">
+		  <div class="logo">
+			
+				<img src="images/Group 293.png" width="76px" >
+			</div>
+			<div class="menu">
+				
+				<ul>
+					<li><a href="#">ABOUT US</a></li>
+					<li><div class="dropdown">
+							<button class="dropbtn">PRODUCTS
+								&nbsp;
+								<i class='fas fa-angle-down' style='font-size:14px'></i>
+							</button>
+							<div class="dropdown-content" >
+							  <div class="bread"><a href="#">Bread
+								  <span style="float: right">
+								  <i class='fas fa-angle-right' style='font-size:14px'></i>
+								  </span>
+								  </a>
+								<ul>
+									<li><a href="#">Regular</a></li>
+							  		<li><a href="#">Sweet</a></li>
+								</ul>
+							 </div>
+							  <a href="#">Sandwich</a>
+							  <a href="#">Pastries</a>
+							  <a href="#">Cookies</a>
+						      <a href="#">Muffins</a>
+						      <div class="beverages"><a href="#">Beverages
+								  <span style="float: right">
+								  <i class='fas fa-angle-right' style='font-size:14px'></i>
+								  </span>
+								  </a>
+								<ul>
+									<li><a href="#">Coffee</a></li>
+							  		<li><a href="#">Smoothies</a></li>
+									<li><a href="#">Juice</a></li>
+								</ul>
+							  </div>
+							  <a href="#">Others</a>
+							</div>
+						  </div> 
+					</li>
+					<li><a href="#">EVENTS</a></li>
+					<li><a href="#">BLOGS</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">SHOPPING CART</a></li>
+					<li><button onclick="document.getElementById('id01').style.display='block'" class="sign-in" ><a href="#">SIGN UP</a></button>
+						<!--modal-->
+						 <div id="id01" class="w3-modal">
+							<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:381px;max-height:624px">
+
+							  <div class="w3-center"><br><br><br>
+								<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+								<span style="font-family: Brandon; font-size: 20px;color: #FFB914 ">SIGN UP</span>
+							  </div>
+
+							  <form class="w3-container" action="/action_page.php">
+								<div class="w3-section">
+								  <label style="color: #FFB914;font-family: roboto regular; font-size: 15px">Username</label>
+								  <input class="w3-input" type="text" placeholder="Enter Username" name="usrname" required><br>
+									
+								  
+									<label style="color: #FFB914;font-family: roboto regular; font-size: 15px"> Email</label>
+								  <input class="w3-input" type="password" placeholder="minhthu@gmail.com" name="psw" required><br>
+									
+									  <label style="color: #FFB914;font-family:  roboto regular; font-size: 15px"> Password</label>
+								  <input class="w3-input " type="password" placeholder="Password has at least 5 words" name="psw" required><br>
+									
+									<label style="color: #FFB914;font-family:  roboto regular; font-size: 15px"> Confirm your password</label>
+								  <input class="w3-input " type="password" placeholder="Confirm your password" name="psw" required><br>
+									
+									<div class="w3-container" style="margin: 30px 0 0 75px;font-family: roboto regular; font-size: 15px">
+											<button class="w3-button w3-black">Read more</button>
+									</div>
+									
+								  
+								  
+								</div>
+							  </form>
+
+							  
+
+							</div>
+						  </div>
+					
+					</li>
+					
+				</ul>
+			</div>
+		
+		
+	 	</div>
+		
+		
+		<div class="slider01">
+				<div id="slideshow1" class="slideshow-container" wow fadeIn data-wow-delay="1.5s">
+
+						<div class="mySlides fade">
+						  
+						  <img src="images/slider1.png" style="width:100%">
+						  
+						</div>
+
+						<div class="mySlides fade">
+						  
+						  <img src="images/slider_2.png" style="width:100%">
+						  
+						</div>
+
+						<div class="mySlides fade">
+						  
+						  <img src="images/slider_3.png" style="width:100%">
+						  
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
+
+
+						<div class="dots">
+						  <span class="dot" onclick="currentSlide(1, slideshow1)"></span> 
+						  <span class="dot" onclick="currentSlide(2, slideshow1)"></span> 
+						  <span class="dot" onclick="currentSlide(3, slideshow1)"></span> 
+						</div>
+			</div>
+</div>
+		
+		
+		
+		
+		<div class="about-us">
+			<div class="about-us-title wow fadeInLeft">
+			ABOUT US
+				<div class="about-us-border"></div>
+		
+			</div>
+			
+			<div class="about-us-content wow fadeInLeft">
+			
+				<span style="font-size: 20px; font-family: roboto italic; color:#FFB914">"Make sweet things happen"</span><br> 
+				<p><span style="font-size:15px; font-family: roboto bold; color:#2B150D">NÂU is a Vietnamese Bakery.</span></p>
+				<p><span style="font-size:15px; font-family: roboto regular; color:#2B150D; line-height: 25px">NÂU is a Vietnamese Bakery, serving a unique selection of bakery goods and beverages made with the highest quality ingredients from French. Beginning with its launch in<br>
+				Ho Chi Minh city in 2017, It has established a reputable bakery café system in Vietnam, building on a brand image that is respected in Asian communities and is expanding<br>
+					into other mainstream markets.</span></p>
+				<div class="w3-container">
+						<button class="w3-button w3-black">Read more</button>
+  				</div>
+			</div>
+			
+		</div>
+		
+		<div class="hinh">
+		Since 2017.
+		
+		</div>
+		
+		<div class="new-arrivals">
+			
+			<div class="new-arrivals-01 wow fadeInDown">NEW PRODUCTS
+				<div class="about-us-border"></div>
+			</div>
+			
+			<div class="new-arrivals-02 wow fadeInLeft">
+				<div id="slideshow3" class="slideshow-container">
+
+						<div class="mySlides fade">
+						  
+									<div class="box">
+										<div class="box-inside">
+
+											<div class="box-inside-hinh">
+												<img src="images/red-velvet-sugar-cookies-6.png">
+											</div>
+											<div class="box-inside-text">
+												<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">RED VELVET COOKIES</span><br>
+												<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+												</span>
+												<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+											</div>
+
+										</div>
+										<div class="new-box">NEW</div>
+									</div>
+									<div class="box-2">
+										<div class="box-inside">
+											<div class="box-inside-hinh">
+												<span style="padding-left: 15px"><img src="images/pumpkin-cheesecake-swirl-muffins-TITLE.png" width="200px"></span>
+											</div>
+											<div class="box-inside-text">
+
+												<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">CHEESE MUFFINS</span><br>
+												<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+												</span>
+												<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+											</div>
+
+										</div>
+										<div class="new-box">NEW</div>
+									</div>
+									<div class="box-3">
+										<div class="box-inside">
+
+											<div class="box-inside-hinh">
+												<span style="padding-left: 20px "><img src="images/nectarine-puff-pastry-3.png"></span>
+
+											</div>
+											<div class="box-inside-text">
+
+												<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">APPLE TOAST</span><br>
+												<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+												</span>
+												<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+
+											</div>
+
+										</div>
+										<div class="new-box">NEW</div>
+									</div>
+
+							</div>
+
+							<div class="mySlides fade">
+						  		<div class="box">
+										<div class="box-inside">
+
+											<div class="box-inside-hinh">
+												<span style="padding-left: 10px"><img src="images/Strawberry-Cookies-2.png" width="200px"></span>
+											</div>
+											<div class="box-inside-text">
+												<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">STRAWBERRY COOKIES</span><br>
+												<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+												</span>
+												<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+											</div>
+
+										</div>
+										<div class="new-box">NEW</div>
+									</div>
+									<div class="box-2">
+										<div class="box-inside">
+											<div class="box-inside-hinh">
+												<span style="padding-left:0px"><img src="images/allie-smith-443203-unsplash.png" width="230"></span>
+											</div>
+											<div class="box-inside-text">
+
+												<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">MACAROON</span><br>
+												<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+												</span>
+												<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+											</div>
+
+										</div>
+										<div class="new-box">NEW</div>
+									</div>
+									<div class="box-3">
+										<div class="box-inside">
+
+											<div class="box-inside-hinh">
+												<span style="padding-left: 30px "><img src="images/frozen-mango-margarita-3.png" width="160px"></span>
+
+											</div>
+											<div class="box-inside-text">
+
+												<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">MANGO ICE BLENDED</span><br>
+												<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+												</span>
+												<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+
+											</div>
+
+										</div>
+										<div class="new-box">NEW</div>
+									</div>
+						  
+						  
+								</div>
+				
+
+						
+
+					<a class="prev01" onclick="plusSlides(-1,slideshow3)">&#10094;</a>
+					<a class="next01" onclick="plusSlides(1, slideshow3)">&#10095;</a>
+
+
+					<div class="dots-02">
+							<span class="dot" onclick="currentSlide(1, slideshow3)"></span> 
+							<span class="dot" onclick="currentSlide(2, slideshow3)"></span> 
+					</div>
+				</div>
+			
+			</div>
+			
+			
+		</div>
+		
+		<div class="best-sellers">
+			
+			<div class="new-arrivals-01  wow fadeInDown">BEST SELLERS
+				<div class="about-us-border"></div>
+			</div>
+			
+			<div class="new-arrivals-02  wow fadeInRight">
+				<div id="slideshow4" class="slideshow-container">
+
+						<div class="mySlides fade">
+				
+							<div class="box">
+								<div class="box-inside">
+
+									<div class="box-inside-hinh">
+										<span style="padding-left: 15px; position: absolute; top: 60px"><img src="images/pastries.png"></span>
+									</div>
+									<div class="box-inside-text">
+
+										<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">WHOLE GRAINS BREAD</span><br>
+										<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+										</span>
+										<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+									</div>
+
+								</div>
+					
+							</div>
+						
+						<div class="box-2">
+							<div class="box-inside">
+
+								<div class="box-inside-hinh">
+									<span style="padding-left: 15px; position: absolute; top: 70px;"><img src="images/pastries 3.png" ></span>
+								</div>
+								<div class="box-inside-text">
+
+									<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">CHOCOLATE PASTRIES</span><br>
+									<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+									</span>
+									<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+								</div>
+
+							</div>
+
+						</div>
+						
+						<div class="box-3">
+							<div class="box-inside">
+
+								<div class="box-inside-hinh">
+									<span style="padding-left: 20px; position: absolute; top: 45px;"><img src="images/pumpkin-oat-muffins-4.png" ></span>
+								</div>
+								<div class="box-inside-text">
+
+									<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">PUMKIN OAT MUFFINS</span><br>
+									<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+									</span>
+									<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+					
+					<div class="mySlides fade">
+				
+							<div class="box">
+								<div class="box-inside">
+
+									<div class="box-inside-hinh">
+										<span style="padding-left: 15px; position: absolute; top: 60px"><img src="images/Red-Velvet-Chocolate-Chip-Cookies-4-683x1024.png" width="200px"></span>
+									</div>
+									<div class="box-inside-text">
+
+										<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">CHOCOLATE CHIPS COOKIES</span><br>
+										<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+										</span>
+										<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+									</div>
+
+								</div>
+					
+							</div>
+						
+						<div class="box-2">
+							<div class="box-inside">
+
+								<div class="box-inside-hinh">
+									<span style="padding-left:0px; position: absolute; top: 70px;"><img src="images/Blueberry-Puff-Pastry-Tarts-TITLE.png" width="230px"></span>
+								</div>
+								<div class="box-inside-text">
+
+									<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">BLUEBERRY PUFF PASTRY TARTS</span><br>
+									<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+									</span>
+									<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+								</div>
+
+							</div>
+
+						</div>
+						
+						<div class="box-3">
+							<div class="box-inside">
+
+								<div class="box-inside-hinh">
+									<span style=" position: absolute; top: 65px;"><img src="images/600cf53a54e95222b397615b70c4eb78.png" width="240px"></span>
+								</div>
+								<div class="box-inside-text">
+
+									<span style="float: left; padding-left: 15px; font-family: brandon; font-size: 17px">HAM CHEESE SANDWICH</span><br>
+									<span style="float: left; padding-left:15px; font-family: roboto regular; font-size: 15px; padding-top: 5px;">35.000 VND
+									</span>
+									<span style="float: right; padding-right: 15px; padding-top: 5px; font-size: 13px; color:#FFB914"><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star">&nbsp;</i><i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></span>
+
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+					
+					<a class="prev01" onclick="plusSlides(-1,slideshow4)">&#10094;</a>
+					<a class="next01" onclick="plusSlides(1, slideshow4)">&#10095;</a>
+
+					
+					<div class="dots-02">
+						<span class="dot" onclick="currentSlide(1, slideshow4)"></span> 
+						<span class="dot" onclick="currentSlide(2, slideshow4)"></span>
+						
+					</div>
+				</div>
+			</div>
+			
+			
+		
+		</div>
+		
+		
+		<div class="clear"></div>
+		
+		<div class="slider02">
+				<div id="slideshow2" class="slideshow-container">
+
+					<div class="mySlides fade">
+					  
+					  <img src="images/slider2.1.png" style="width:100%">
+					  
+					</div>
+
+					<div class="mySlides fade">
+					  
+					  <img src="images/Group 1098.png" style="width:100%">
+					  
+					</div>
+
+					<div class="mySlides fade">
+					  
+					  <img src="images/Group 1099.png" style="width:100%">
+					  
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+					
+					<div class="dots-01">
+					  <span class="dot" onclick="currentSlide(1, slideshow2)"></span> 
+					  <span class="dot" onclick="currentSlide(2, slideshow2)"></span> 
+					  <span class="dot" onclick="currentSlide(3, slideshow2)"></span> 
+					</div>
+				</div>
+
+		</div>
+		
+		
+		
+		<div class="our-product">
+			<div class="our-product-01 wow fadeInDown">OUR PRODUCTS
+				<div class="about-us-border"></div>
+				
+			 </div>
+			<div class="our-product-02 wow fadeInUp">
+				<div class="owl-carousel owl-theme">
+						<div class="item">
+					
+							<div class="pro-box">
+								<div class="hinh-box">
+									<img src="images/Group 130.png" height="478px">
+								</div>
+								<div class="text-box">BREAD</div>
+							</div>
+						</div>
+						<div class="item">
+					
+							<div class="pro-box" align="center">
+								<div class="hinh-box">
+									<img src="images/Group 93.png" height="478px">
+								</div>
+								<div class="text-box">SANDWICH</div>
+							</div>
+					
+						</div>
+						<div class="item">
+					
+							<div class="pro-box">
+								<div class="hinh-box">
+									<img src="images/Pastries1.png" height="478px">
+								</div>
+								<div class="text-box">PASTRIES</div>
+							</div>
+
+						</div>
+						
+						<div class="item">
+					
+							<div class="pro-box">
+								<div class="hinh-box">
+									<img src="images/cookie.jpg" height="478px">
+								</div>
+								<div class="text-box">COOKIES</div>
+							</div>
+						
+						</div>
+						<div class="item">
+								<div class="pro-box">
+								<div class="hinh-box">
+									<img src="images/muffin.jpg" height="478px">
+								</div>
+								<div class="text-box">MUFFINS</div>
+							</div>
+					
+						</div>
+						<div class="item">
+								
+							<div class="pro-box">
+								<div class="hinh-box">
+									<img src="images/beverages.jpg" height="478px">
+								</div>
+								<div class="text-box">BEVERAGES</div>
+							</div>
+						</div>
+						<div class="item">
+							
+							<div class="pro-box">
+								<div class="hinh-box">
+									<img src="images/others.jpg" height="478px">
+								</div>
+								<div class="text-box">OTHERS</div>
+							</div>
+					
+						</div>
+				</div>
+				
+			</div>
+		</div>
+		 <div class="blog01">
+			<div class="content01-01 wow fadeInLeft">
+			 
+			 <img src="images/anna-sullivan-635364-unsplash.png">
+				
+			 
+			</div>
+			 
+			<div class="content01-01-text wow fadeInRight">
+				<div class="blog-title">
+					STORIES
+					<div class="border"></div>
+				
+				</div> 
+				<div class="blog-content">
+					NÂU is a Vietnamese Bakery, serving a unique selection of bakery goods and beverages made with the highest quality ingredients from French. Beginning with its launch in Ho Chi Minh city in 2017, It has established a reputable bakery café system in Vietnam, building on a brand image that is respected in Asian communities and is expanding into other mainstream markets.
+				
+				</div>
+				
+				<div class="w3-container">
+						<span style="position: absolute; left:320px; top: 250px;"><button class="w3-button w3-black">Read more</button></span>
+  				</div>
+			 
+			</div>
+			
+			
+			 
+			 
+		</div>
+		 <div class="blog02">
+			<div class="content01-02 wow fadeInRight">
+			<img src="images/NutellaPuffPastryLetTheBakingBeginBlog.com_8.png"> 
+			</div>
+			
+			 <div class="content01-02-text wow fadeInLeft">
+			 	<div class="blog-title" >
+				 	BAKED WITH NÂU
+					<div class="border"></div>
+				</div> 
+				<div class="blog-content" >
+					NÂU is a Vietnamese Bakery, serving a unique selection of bakery goods and beverages made with the highest quality ingredients from French. Beginning with its launch in Ho Chi Minh city in 2017, It has established a reputable bakery café system in Vietnam, building on a brand image that is respected in Asian communities and is expanding into other mainstream markets. 
+				 
+				</div>
+				 
+				 <div class="w3-container">
+						<span style="position: absolute; left:220px; top: 250px;"><button class="w3-button w3-black">Read more</button></span>
+  				</div>
+			 
+			 </div>
+			
+			
+					
+		</div>
+		 <div class="blog03">
+			<div class="content01-01 wow fadeInLeft">
+				<img src="images/monika-grabkowska-459055-unsplash.png">	
+				
+				<div class="content01-01-text wow fadeInRight">
+					<div class="blog-title">
+						RECIPES
+						<div class="border"></div>
+					</div> 
+					<div class="blog-content">
+						
+						NÂU is a Vietnamese Bakery, serving a unique selection of bakery goods and beverages made with the highest quality ingredients from French. Beginning with its launch in Ho Chi Minh city in 2017, It has established a reputable bakery café system in Vietnam, building on a brand image that is respected in Asian communities and is expanding into other mainstream markets.
+					
+					</div>
+					
+					<div class="w3-container">
+						<span style="position: absolute; left:320px; top: 250px;"><button class="w3-button w3-black">Read more</button></span>
+  					</div>
+				
+				</div>
+			
+				
+			</div>
+			 
+			
+		</div>
+		 <div class="sub-footer">
+			 <div class="sub-footer-title">STAY IN TOUCH</div>
+			 
+			 <div class="sub-footer-text">Subcribe for our awesome newsletter <br>
+				 to get the lastest news</div>
+			 
+			 <div class="sub-footer-border">
+			 	<div class="w3-container">
+						<span style="width: 70px; height: 40px; font-family: brandon; position: absolute; left: 440px; top: 10px"><button class="w3-button w3-black">SEND</button></span>
+  				</div>
+			 
+			 </div>
+		
+		
+		
+		 </div>
+		
+		<div class="footer">
+			<div class="footer-01">
+				<span style="font-size: 15px; color: white; font-family: brandon; color:#FFB914">About us</span>
+				<div class="border-footer"></div><br>
+				<span style="font-size: 13px; color: white; font-family: roboto regular">NÂU is a Vietnamese Bakery, serving a unique selection of bakery goods and beverages made with the highest quality ingredients from French.</span>
+			
+			</div>
+			<div class="footer-02">
+				<span style="font-size: 15px; color: white; font-family: brandon; color:#FFB914 ">Contact</span>
+				<div class="border-footer"></div><br>
+				<span style="font-size: 13px; color: white; font-family: roboto regular">Phone: (028) 54035653<br>
+				Email: naubakery@gmail.com.vn
+				</span>
+			
+			</div>
+			<div class="footer-03">
+				<span style="font-size: 15px; color: white; font-family: brandon;color:#FFB914">Address</span>
+				<div class="border-footer"></div><br>
+				<span style="font-size: 13px; color: white; font-family: roboto regular">
+					<i class="fas fa-map-marker-alt"></i>
+					&nbsp;
+					42 Nguyen Hue Street, Ben Nghe Ward, District 1.
+				</span>
+			
+			</div>
+			<div class="footer-04">
+				<span style="font-size: 15px; color: white; font-family: brandon; color:#FFB914">Opening Hours</span>
+				<div class="border-footer"></div><br>
+				<span style="font-size: 13px; color: white; font-family: roboto bold">
+					Monday - Friday</span> <br>
+					<span style="font-size: 13px; color: white;font-family: roboto italic"> 8:00 AM - 11H30 PM</span>
+				<span style="font-size: 13px; color: white; font-family: roboto bold">	
+					Saturday - Sunday</span> <br>
+					<span style="font-size: 13px; color: white;font-family: roboto italic">8:00 AM - 10:30 PM</span>
+				
+			
+			</div>
+			<div class="clear"></div>
+			<div class="icon">
+				<div class="icon-01">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-google"></a>
+						<a href="#" class="fa fa-instagram"></a>
+				</div>
+				
+				<div class="icon-02">@ 2017 Nâu Bakery. All right reserved</div>
+			</div>
+		</div>
+	
+	
+</div>
+	
+
+	<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+	
+	
+  
+ 
+	
+	
+
+
+<script>
+var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
+
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 1;
+showSlides(slideshow2.currentSlideIndex, slideshow2);
+
+var slideshow3 = document.getElementById("slideshow3");
+slideshow3.currentSlideIndex = 1;
+showSlides(slideshow3.currentSlideIndex, slideshow3);
+
+var slideshow4 = document.getElementById("slideshow4");
+slideshow4.currentSlideIndex = 1;
+showSlides(slideshow4.currentSlideIndex, slideshow4);
+
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
+}
+
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
+  
+
+
+  var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  var dots = slideshow.getElementsByClassName("dot");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
+  dots[slideshow.currentSlideIndex-1].className += " active";
+}
+</script>
+	
+<script src="vendors/jquery.min.js" type="text/javascript"></script>
+	
+<script src="vendors/owl.carousel.js" type="text/javascript"></script>
+	
+<script type="text/javascript">
+	
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:110,
+	
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1366:{
+            items:3
+        }
+    }
+})
+	
+</script>
+
+
+	
+<script src="js/wow.js"></script>
+	
+	
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+	
+<script>
+
+	$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+</script>
+	
+	
+	
+</body>
+</html>
